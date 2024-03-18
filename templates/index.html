@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>AI Health Projects</h1>
+    </header>
+    <main>
+        <section id="breast-cancer">
+            <h2>Breast Cancer Detection</h2>
+            <p>Description of breast cancer detection project...</p>
+            <img src="{{ url_for('static', filename='breast_cancer.jpg') }}" alt="Breast Cancer">
+        </section>
+        <section id="diabetes">
+            <h2>Diabetes Prediction</h2>
+            <p>Description of diabetes prediction project...</p>
+            <img src="{{ url_for('static', filename='diabetes.jpg') }}" alt="Diabetes">
+        </section>
+        <section id="heart-disease">
+            <h2>Heart Disease Diagnosis</h2>
+            <p>Description of heart disease diagnosis project...</p>
+            <img src="{{ url_for('static', filename='heart_disease.jpg') }}" alt="Heart Disease">
+        </section>
+        <section id="kidney-disease">
+            <h2>Kidney Disease Prediction</h2>
+            <p>Description of kidney disease prediction project...</p>
+            <img src="{{ url_for('static', filename='kidney_disease.jpg') }}" alt="Kidney Disease">
+        </section>
+    </main>
+    <footer>
+        <p>AI is revolutionizing healthcare by providing accurate predictions and diagnoses, leading to better patient outcomes and reduced costs.</p>
+    </footer>
+</body>
+</html>
